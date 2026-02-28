@@ -1,0 +1,11 @@
+package com.dipu.sbeans;
+
+
+public class Mian {
+
+	public static void main(String[] args) {
+		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext();
+		
+		ApplicationContext c = new FileSystemXmlApplicationContext();
+	}
+}

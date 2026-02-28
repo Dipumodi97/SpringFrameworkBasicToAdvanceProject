@@ -1,0 +1,13 @@
+package com.dipu.sbeans;
+
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class Mian {
+
+	public static void main(String[] args) {
+		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext();
+		
+		ApplicationContext c = new FileSystemXmlApplicationContext();
+	}
+}

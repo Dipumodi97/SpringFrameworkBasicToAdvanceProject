@@ -1,0 +1,8 @@
+package com.dipu.sbeans;
+
+import org.springframework.stereotype.Component;
+
+@Component("sf")
+public class SeasonFinder {
+
+}

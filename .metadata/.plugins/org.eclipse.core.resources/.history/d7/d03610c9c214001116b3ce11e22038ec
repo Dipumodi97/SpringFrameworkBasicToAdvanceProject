@@ -1,0 +1,14 @@
+package com.dipu.client;
+
+import org.springframework.context.support.FileSystemXmlApplicationContext;
+
+public class DependencyInjectionTest {
+
+	public static void main(String[] args) {
+		// create IOC container
+		
+		FileSystemXmlApplicationContext context = 
+				new FileSystemXmlApplicationContext(
+						"src/main/java/com/dipu/configuration/applicationContext.xml");
+	}
+}
